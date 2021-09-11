@@ -1,0 +1,61 @@
+% 1. Title: 
+%		Pheromone Heatmaps Experimental Data
+%
+% 2. Description: 
+%		Pheromone heatmaps present the concentration of pheromone 
+%		throughout the environment at a given time step, i.e., a screenshot 
+%		that shows the amount of pheromone spread in each analysed area.
+%
+% 3. File information:
+%		The name of the datasets consists of the following information:
+%
+%		[number]. data_[exper]_e[[envir]-[envir-size]]_[swarm-size]rb_[choice-strategy]_rb[rb-id]_rad[radius]
+%
+%		-> number: number of the file;
+%		-> exper: type of the experiment [ph = Pheromone Heatmap];
+%		-> envir: number of the environment [1];
+%		-> envir-size: dimensions of the environment;
+%		-> swarm-size: number of robots composing the swarm;
+%		-> choice-strategy: distribution of the movement strategies [1]
+%			(222) = all robots with deterministic strategy
+%			(555) = all robots with inertial strategy
+%			(552) = 2/3 with inertial and 1/3 with deterministic strategy;
+%		-> rb-id: the 'id' of the robot that owns the heatmap;
+%		-> radius: communication radius used by the robots in the experiment
+%
+% 4. Data information:
+%		The data describe a matrix with the same dimensions of the environment.
+%		Each value of this matrix represents the concentration of pheromone in 
+%		one of the cells that are in the grid that discretizes the environment.
+%		The values range from 0.0 to 1.0, where 0.0 represents no pheromone
+%		detected and 1.0 the maximum amount of pheromone. Cells representing 
+%		stationary objects, such as walls, do not receive deposits of pheromone. 
+%		Therefore, in the pheromone grid, this type of cell always maintains base
+%		values (0.000010).
+%
+% 5. Authors:
+%		Claudiney R. Tinoco (ORCID: 0000-0003-2540-1735)
+%		claudineyrt[AT]gmail[DOT]com
+%
+%		Gina M. B. Oliveira (ORCID: 0000-0003-0384-1879)
+%		gina[AT]ufu[DOT]br
+%
+%		Federal University of Uberlândia (UFU)
+%		School of Computer Science (FACOM)
+%		Bio-inspired Computing Laboratory (LCBio)
+%		Postal Code 593 – 38.400-902 – Uberlândia/MG – Brazil
+%
+% 6. Past Usage:
+%	 	The datasets are part of the paper "PheroCom: Decentralised and 
+%		asynchronous swarm robotics coordination model based on virtual 
+%		pheromone maps and vibroacoustic communication".
+%
+% 7. Relevant Information:
+%		All datasets in this directory is under GNU Affero General 
+%		Public License v3.0 (AGPL-3.0).
+%
+% 8. References:
+%		[1] TINOCO, Claudiney R.; OLIVEIRA, Gina M. B., "PheroCom: 
+%		Decentralised and asynchronous swarm robotics coordination model 
+%		based on virtual pheromone maps and vibroacoustic communication".
+%
