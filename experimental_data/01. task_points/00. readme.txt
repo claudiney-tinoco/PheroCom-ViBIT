@@ -1,0 +1,77 @@
+% 1. Title: 
+%		Task Points Experimental Data
+%
+% 2. Description: 
+%		Task points charts show how many times the proposed task has 
+%		been completed, given a maximum amount of time steps. In this
+%		case, the task defined was surveillance.
+%
+%		The formal definition of task points [1] is as follows:
+%		"Let E be an environment composed of ‘m’ rooms and S a swarm 
+%		composed of ‘n’ robots. A room 'i' belonging to the environment 
+%		E is described as {r_i/(i <= m) and (i in N)}. Similarly, a 
+%		robot 'i' belonging to the swarm S is described as {s_i/(i <= n) 
+%		and (i in N)}. Thus, a task point is reached iff every room 
+%		(r_i in E) receives a visit from at least one robot (s_i in S)."
+%
+% 3. File information:
+%		The name of the datasets consists of the following information:
+%
+%		[number]. data_[exper]_e[[envir]-[envir-size]]_[swarm-size]rb_[choice-strategy]
+%
+%		-> number: number of the file;
+%		-> exper: type of the experiment [tp = Task Point];
+%		-> envir: number of the environment [1];
+%		-> envir-size: dimensions of the environment;
+%		-> swarm-size: number of robots composing the swarm;
+%		-> choice-strategy: distribution of the movement strategies [1]
+%			(222) = all robots with deterministic strategy
+%			(555) = all robots with inertial strategy
+%			(552) = 2/3 with inertial and 1/3 with deterministic strategy
+%
+% 4. Data information:
+%		The data is arranged in a 22-column, 100-row table. Each column 
+%		represents a different setup, and each row an execution with a 
+%		different random seed, i.e., each of the 22 setups has run 100 
+%		times. The first column contains the data from the experiments 
+%		using the IACA-DI model, and the other columns with the PheroCom 
+%		coordination model, varying the robots' communication radius.
+%
+%		Column 01 = IACA-DI [2]
+%		Column 02 = PheroCom (radius 0) [1]
+%		Column 03 = PheroCom (radius 1) [1]
+%		Column 04 = PheroCom (radius 2) [1]
+%		...
+%
+% 5. Authors:
+%		Claudiney R. Tinoco (ORCID: 0000-0003-2540-1735)
+%		claudineyrt[AT]gmail[DOT]com
+%
+%		Gina M. B. Oliveira (ORCID: 0000-0003-0384-1879)
+%		gina[AT]ufu[DOT]br
+%
+%		Federal University of Uberlândia (UFU)
+%		School of Computer Science (FACOM)
+%		Bio-inspired Computing Laboratory (LCBio)
+%		Postal Code 593 – 38.400-902 – Uberlândia/MG – Brazil
+%
+% 6. Past Usage:
+%	 	The datasets are part of the paper "PheroCom: Decentralised and 
+%		asynchronous swarm robotics coordination model based on virtual 
+%		pheromone maps and vibroacoustic communication".
+%
+% 7. Relevant Information:
+%		All datasets in this directory is under GNU Affero General 
+%		Public License v3.0 (AGPL-3.0).
+%
+% 8. References:
+%		[1] TINOCO, Claudiney R.; OLIVEIRA, Gina M. B., "PheroCom: 
+%		Decentralised and asynchronous swarm robotics coordination model 
+%		based on virtual pheromone maps and vibroacoustic communication".
+%
+%		[2] TINOCO, Claudiney R.; LIMA, Danielli A.; OLIVEIRA, Gina M. B. 
+%		"An improved model for swarm robotics in surveillance based on 
+%		cellular automata and repulsive pheromone with discrete diffusion". 
+%		International Journal of Parallel, Emergent and Distributed 
+%		Systems, v. 34, n. 1, p. 53-77, 2019.
+%
