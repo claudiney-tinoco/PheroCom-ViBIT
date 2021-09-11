@@ -1,0 +1,59 @@
+% 1. Title: 
+%		Cellsteps Experimental Data
+%
+% 2. Description: 
+%		Cellsteps maps aim to graphically show the scattering of the 
+%		swarm across the environment. It is possible to observe whether 
+%		the spread is homogeneous or whether there are areas not being 
+%		monitored at an adequate frequency. Each time a robot passes 
+%		through a cell, a cellstep is counted. These maps describe the 
+%		mean of 100 executions to avoid outliers.
+%
+% 3. File information:
+%		The name of the datasets consists of the following information:
+%
+%		[number]. data_[exper]_e[[envir]-[envir-size]]_[swarm-size]rb_[choice-strategy]
+%
+%		-> number: number of the file;
+%		-> exper: type of the experiment [cs = Cellstep];
+%		-> envir: number of the environment [1];
+%		-> envir-size: dimensions of the environment;
+%		-> swarm-size: number of robots composing the swarm;
+%		-> choice-strategy: distribution of the movement strategies [1]
+%			(222) = all robots with deterministic strategy
+%			(555) = all robots with inertial strategy
+%			(552) = 2/3 with inertial and 1/3 with deterministic strategy
+%
+% 4. Data information:
+%		The data describe a matrix with the same dimensions of the 
+%		environment. Each value of this matrix represents the mean of 
+%		cellsteps of a cell that composes the grid that discretizes the 
+%		environment. Cells representing stationary objects, such as walls, 
+%		do not receive cellsteps.
+%
+% 5. Authors:
+%		Claudiney R. Tinoco (ORCID: 0000-0003-2540-1735)
+%		claudineyrt[AT]gmail[DOT]com
+%
+%		Gina M. B. Oliveira (ORCID: 0000-0003-0384-1879)
+%		gina[AT]ufu[DOT]br
+%
+%		Federal University of Uberlândia (UFU)
+%		School of Computer Science (FACOM)
+%		Bio-inspired Computing Laboratory (LCBio)
+%		Postal Code 593 – 38.400-902 – Uberlândia/MG – Brazil
+%
+% 6. Past Usage:
+%	 	The datasets are part of the paper "PheroCom: Decentralised and 
+%		asynchronous swarm robotics coordination model based on virtual 
+%		pheromone maps and vibroacoustic communication".
+%
+% 7. Relevant Information:
+%		All datasets in this directory is under GNU Affero General 
+%		Public License v3.0 (AGPL-3.0).
+%
+% 8. References:
+%		[1] TINOCO, Claudiney R.; OLIVEIRA, Gina M. B., "PheroCom: 
+%		Decentralised and asynchronous swarm robotics coordination model 
+%		based on virtual pheromone maps and vibroacoustic communication".
+%
