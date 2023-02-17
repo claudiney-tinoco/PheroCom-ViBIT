@@ -4,7 +4,7 @@ Claudiney R. Tinoco, M.Sc.<br/>
 School of Computer Science<br/>
 Federal University of Uberlândia (UFU)<br/>
 Uberlândia-MG, Brazil<br/>
-claudineyrt [AT] gmail [DOT] com
+claudineyrt [AT] ufu [DOT] br
 
 Gina M. B. Oliveira, Ph.D.<br/>
 School of Computer Science<br/>
